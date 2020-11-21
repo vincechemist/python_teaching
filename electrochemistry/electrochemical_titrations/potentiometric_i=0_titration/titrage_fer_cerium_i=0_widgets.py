@@ -252,7 +252,7 @@ lines = {}
 lines['$i_\mathrm{Fe}$'], = ax1.plot([], [],color='green',lw=2,label='$i_\mathrm{Fe}$')
 lines['$i_\mathrm{Ce}$'], = ax1.plot([], [],color='blue',lw=2,label='$i_\mathrm{Ce}$')
 lines['$i_\mathrm{tot}$'], = ax1.plot([], [], lw=3, color='red',label='$i_\mathrm{tot}$')
-lines['$Titration \ step \ by \ step$'],=ax2.plot([],[],'s',color='black',lw=1)
+lines['$Titration \ step \ by \ step$'],=ax2.plot([],[],'o',color='black',lw=1)
 lines['$Titration \ curve$'],=ax2.plot(V_domain,titration_curve_0,color='red',lw=3,label='$Titration \ curve$')
 truc={}
 truc['$Titration \ spot \ (left)$'], = ax1.plot([], [],'o',color='black',lw=2,label='$Titration \ spot$')
